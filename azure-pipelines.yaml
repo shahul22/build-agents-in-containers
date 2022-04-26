@@ -5,7 +5,7 @@ stages:
 - stage: build
 
   pool:
-   name: linux-containers-aks
+   name: AKS-Agent
    # vmImage: ubuntu-latest
 
   jobs:
