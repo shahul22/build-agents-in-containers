@@ -5,7 +5,7 @@ stages:
 - stage: build
 
   pool:
-   name: AKS-Agent
+   name: AKS-Helm-Agent
    # vmImage: ubuntu-latest
 
   jobs:
